@@ -9,7 +9,7 @@ export function login(username, password, code, uuid) {
     uuid
   }
   return request({
-    url: '/login',
+    url: '/api/login',
     method: 'post',
     data: data
   })
